@@ -90,7 +90,7 @@ export const LinkPreview = React.memo(
       return () => {
         isCancelled = true
       }
-    }, [enableAnimation, onPreviewDataFetched, previewData, text])
+    }, [text])
 
     const handleContainerLayout = React.useCallback(
       (event: LayoutChangeEvent) => {
