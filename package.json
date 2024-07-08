@@ -21,7 +21,8 @@
     "typescript"
   ],
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
